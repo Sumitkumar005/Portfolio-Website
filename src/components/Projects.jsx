@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { projects } from "../constants";
 import { AiFillGithub } from "react-icons/ai";
 import { BsLink45Deg } from "react-icons/bs";
@@ -28,7 +28,7 @@ const Project = (props) => {
             Tech Stack
           </p>
           <div className="mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300">
-            <div className="flex sm:flex-row">
+            <div className="flex sm:flex-row flex-wrap">
               {props.stack.map((tech, index) => (
                 <div
                   key={tech.id}
@@ -50,7 +50,7 @@ const Project = (props) => {
 
       <div className="flex mt-4 -mx-2">
         {props.github ? (
-          <a href={props.github} target="_blank">
+          <a href={props.github} target="_blank" rel="noopener noreferrer">
             <AiFillGithub
               size="2rem"
               className="text-white mr-1 hover:text-teal-200"
@@ -60,7 +60,7 @@ const Project = (props) => {
           ""
         )}
         {props.link ? (
-          <a href={props.link} target="_blank">
+          <a href={props.link} target="_blank" rel="noopener noreferrer">
             <BsLink45Deg
               size="2rem"
               className="text-white hover:text-teal-200"
@@ -75,18 +75,51 @@ const Project = (props) => {
 };
 
 const Projects = () => {
+  const [activeCategory, setActiveCategory] = useState("All");
+  
+  // Get unique categories
+  const categories = ["All", ...new Set(projects.map(project => project.category))];
+  
+  // Filter projects based on active category
+  const filteredProjects = activeCategory === "All" 
+    ? projects 
+    : projects.filter(project => project.category === activeCategory);
+
   return (
     <section id="projects">
       <h1 className="flex-1 font-poppins font-semibold ss:text-[55px] text-[45px] text-white ss:leading-[80px] leading-[80px]">
         Projects
       </h1>
 
+      {/* Category Filter Tabs */}
+      <div className="flex flex-wrap justify-center gap-4 mt-8 mb-8">
+        {categories.map((category) => (
+          <button
+            key={category}
+            onClick={() => setActiveCategory(category)}
+            className={`px-6 py-2 rounded-full font-poppins font-medium transition-all duration-300 ${
+              activeCategory === category
+                ? "bg-gradient-to-r from-blue-gradient to-pink-gradient text-white"
+                : "bg-transparent border border-dimWhite text-dimWhite hover:border-white hover:text-white"
+            }`}
+          >
+            {category}
+          </button>
+        ))}
+      </div>
+
       <div className="container px-2 py-10 mx-auto mb-8">
         <div className="grid grid-cols-1 gap-8 mt-8 md:mt-16 md:grid-cols-2">
-          {projects.map((project, index) => (
+          {filteredProjects.map((project, index) => (
             <Project key={project.id} index={index} {...project} />
           ))}
         </div>
+        
+        {filteredProjects.length === 0 && (
+          <div className="text-center text-dimWhite font-poppins mt-8">
+            No projects found in this category.
+          </div>
+        )}
       </div>
     </section>
   );

@@ -313,233 +313,387 @@ export const skills = [
 
 // Add your current/past professional work experience here
 export const experiences = [
-
   {
-    organisation: "HTS Tech Solutions, Pune(Maharashtra) India",
+    organisation: "ForeignAdmits, Bengaluru, India",
+    logo: HTS,
+    link: "https://foreignadmits.com/",
+    positions: [
+      {
+        title: "AI Engineer Intern",
+        duration: "July 2025 - Present",
+        content: [
+          {
+            text: "Building production-grade AI chatbots and document processing systems for study abroad assistance.",
+            link: "",
+          },
+          {
+            text: "Working with RAG pipelines, LLMs, and automated email outreach platforms.",
+            link: "",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    organisation: "AI Research Lab, South Korea",
+    logo: oracle,
+    link: "",
+    positions: [
+      {
+        title: "ML Engineer (Freelancer)",
+        duration: "Sep 2025 - Nov 2025",
+        content: [
+          {
+            text: "Researching AI-driven Fashion Trend Forecasting and Multimodal Emotion Recognition systems.",
+            link: "",
+          },
+          {
+            text: "Working with advanced ML models, PyTorch, and Graph Neural Networks.",
+            link: "",
+          },
+        ],
+      },
+    ],
+  },
+  
+  {
+    organisation: "HTS Tech Solutions, Pune, India",
     logo: HTS,
     link: "https://htstechsolutions.com/",
     positions: [
       {
-        title: "Artificial Intelligence Intern(On-site)",
-        duration: "March 2025 - Present",
+        title: "AI & Data Science Intern - PPO Received",
+        duration: "March 2025 - July 2025",
         content: [
           {
-            text: "",
+            text: "Developed AI-powered rust detection system for mobile cell towers using computer vision.",
+            link: "",
+          },
+          {
+            text: "Built 3D mapping pipelines and optimized ML workflows, reducing processing time by 75%.",
             link: "",
           },
         ],
       },
-      {
-
-
-        content: [
-
-          {
-            text: " currently working on a Computer Vision project. and building real-world AI solutions while sharpening problem-solving skills.",
-            link: ""
-          }
-        ],
-      },
     ],
   },
+  
   {
-    organisation: "Unified Mentor,Gurugram(Haryana) India",
+    organisation: "Unified Mentor, Gurugram, India",
     logo: oracle,
     link: "https://www.unifiedmentor.com/",
     positions: [
       {
-        title: "Machine Learning Intern(Remote)",
+        title: "Machine Learning Intern",
         duration: "Dec 2024 - Feb 2025",
         content: [
           {
-            text: "Working in the AI team, building scalable ML pipelines and predictive models.",
+            text: "Built ML pipelines for fraud detection and medical imaging with 92% accuracy.",
             link: "",
           },
-        ],
-      },
-      {
-        title: "Member of Unified Mentor(Remote)",
-        duration: "Sep 2024 - Nov 2024",
-        content: [
-
           {
-            text: "Worked on hands-on ML projects, gained mentorship, and built end to end ML projects and improved problem-solving skills.",
-            link: ""
-          }
+            text: "Worked with ensemble learning, CNNs, and deployed scalable FastAPI systems.",
+            link: "",
+          },
         ],
       },
     ],
   },
-  {
-    organisation: "Exposys Data Labs,Bengaluru(Karnataka) India",
-    logo: averlon,
-    link: "https://www.exposysdata.com/",
-    positions: [
-      {
-        title: "Software Developer Intern(Remote)",
-        duration: " Nov 2024 - Jan 2025",
-        content: [
-          {
-            text: "Built and optimized backend services, enhancing system performance and scalability. Worked on integrating APIs, improving database efficiency, and implementing robust solutions for real-world applications.",
-            link: ""
-          },
-          {
-            text: "Collaborated with the team to streamline development workflows and deliver high-quality software.",
-            link: ""
-          }
-        ],
-      },
-    ],
-  },
-  {
-    organisation: "Igniters, IITM BS Chennai(Tamil Nadu) India",
-    logo: iris,
-    link: "https://igniters.devvoy.com/",
-    positions: [
-      {
-        title: "Community Lead",
-        duration: "Dec 2024 - Present",
-        content: [
-          {
-            text: "leding a competitive programming community for 200+ students, creating structured learning paths, organizing coding challenges, and fostering a collaborative environment for growth on platforms like Codeforces and LeetCode.",
-            link: "",
-          },
-          {
-            text: "Led workshops and discussions, ensuring continuous skill development for members.",
-            link: "",
-          },
-        ],
-      },
-    ],
-  }
 ];
 
 // Add information about all the projects to be listed out in your portfolio
 export const projects = [
-
+  // AI/ML Projects
   {
-    id: "project-2",
-    title: "Live Monitoring in warehouse",
-    github: "https://github.com/Sumitkumar005/Isourse-FlowVision",
-
+    id: "ai-project-1",
+    title: "VoxFlow.ai - AI Voice Calling Platform",
+    github: "https://github.com/Sumitkumar005/VoxFlow.ai",
     image: greentrust,
-    content:
-      " Fault Detection, Quality Inspection & Remote Monitoring System warehouse offers a novel solution.",
+    content: "A comprehensive AI-powered voice calling platform for automated customer interactions with advanced AI agents.",
+    category: "AI/ML",
     stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS"
-      },
-      {
-        id: "icon-4",
-        icon: SiGooglecloud,
-        name: "Google Cloud Platform"
-      },
-      {
-        id: "icon-3",
-        icon: SiFlask,
-        name: "Flask"
-      },
-      {
-        id: "icon-4",
-        icon: SiOpencv,
-        name: "Computer Vision"
-      },
-
-
-
-      {
-        id: "icon-7",
-        icon: SiPytorch,
-        name: "Keras"
-      },
-      {
-        id: "icon-8",
-        icon: SiTensorflow,
-        name: "TensorFlow"
-      },
-
+      { id: "icon-1", icon: SiJavascript, name: "Node.js" },
+      { id: "icon-2", icon: SiTwilio, name: "Twilio" },
+      { id: "icon-3", icon: SiOpenai, name: "OpenAI" },
+      { id: "icon-4", icon: SiMilvus, name: "MongoDB" },
     ],
   },
   {
-    id: "project-3",
-    title: " RAG System in Chemical Industry ",
-    github: "https://github.com/Sumitkumar005/RAG-System-Knowledge-Base-Integration",
+    id: "ai-project-2",
+    title: "QA_TESTER - AI Code Analysis Platform",
+    github: "https://github.com/Sumitkumar005/QA_TESTER",
     image: chargeswap,
-    content:
-      "Designed a RAG system for MES, enabling context-aware queries and smart factory operations.Built a Streamlit-based interface for multimodal QA, integrating text, audio, video, and image processing.",
+    content: "AI-powered code analysis platform that provides comprehensive quality assessment, security vulnerability detection, and intelligent insights for your codebase.",
+    category: "AI/ML",
     stack: [
-      {
-        id: "icon-0",
-        icon: SiOpenai,
-        name: "OpenAI API"
-      },
-
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React"
-      },
-      {
-        id: "icon-4",
-        icon: SiStreamlit,
-        name: "Streamlit"
-      }
+      { id: "icon-1", icon: SiFastapi, name: "FastAPI" },
+      { id: "icon-2", icon: SiOpenai, name: "Google Gemini" },
+      { id: "icon-3", icon: SiMilvus, name: "FAISS" },
+      { id: "icon-4", icon: SiMilvus, name: "MongoDB" },
     ],
   },
-
   {
-    id: "project-5",
-    title: " Smart Finance with Machine Learning",
-    github: "https://github.com/Sumitkumar005/Smart-Finance-with-Machine-Learning",
-
+    id: "ai-project-3",
+    title: "AI Calling Agent - Mental Health Consultant",
+    github: "https://github.com/Sumitkumar005/AI-calling-agent",
     image: recruitment,
-    content:
-      " Implemented ML and deep learning models for stock prediction and anomaly detection",
+    content: "Innovative solution for automated inbound/outbound calling processes, tailored as a mental health consultant using Twilio, OpenAI, Pinecone, and MongoDB.",
+    category: "AI/ML",
     stack: [
-
-      {
-        id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS"
-      },
-      {
-        id: "icon-3",
-        icon: SiJquery,
-        name: "jQuery"
-      },
-      {
-        id: "icon-3",
-        icon: SiFlask,
-        name: "Flask"
-      },
-      {
-        id: "icon-4",
-        icon: SiOpencv,
-        name: "Computer Vision"
-      },
-
-
-
-      {
-        id: "icon-7",
-        icon: SiPytorch,
-        name: "Keras"
-      },
-      {
-        id: "icon-8",
-        icon: SiTensorflow,
-        name: "TensorFlow"
-      },
+      { id: "icon-1", icon: SiTwilio, name: "Twilio" },
+      { id: "icon-2", icon: SiOpenai, name: "OpenAI" },
+      { id: "icon-3", icon: SiMilvus, name: "Pinecone" },
+      { id: "icon-4", icon: SiMilvus, name: "MongoDB" },
+    ],
+  },
+  {
+    id: "ai-project-4",
+    title: "Custom University Chatbot",
+    github: "https://github.com/Sumitkumar005/custom-chatbot",
+    image: chargeswap,
+    content: "A production-ready chatbot for querying university information with RAG implementation and vector search capabilities.",
+    category: "AI/ML",
+    stack: [
+      { id: "icon-1", icon: SiPython, name: "Python" },
+      { id: "icon-2", icon: SiMilvus, name: "FAISS" },
+      { id: "icon-3", icon: SiOpenai, name: "OpenAI" },
+      { id: "icon-4", icon: SiStreamlit, name: "Streamlit" },
+    ],
+  },
+  {
+    id: "ai-project-5",
+    title: "Smart Finance with Machine Learning",
+    github: "https://github.com/Sumitkumar005/Smart-Finance-with-Machine-Learning",
+    image: recruitment,
+    content: "Implemented ML and deep learning models for stock prediction and anomaly detection. Featured in IIT Madras Newsletter.",
+    category: "AI/ML",
+    stack: [
+      { id: "icon-1", icon: SiPython, name: "Python" },
+      { id: "icon-2", icon: SiTensorflow, name: "TensorFlow" },
+      { id: "icon-3", icon: SiPandas, name: "Pandas" },
+      { id: "icon-4", icon: SiFlask, name: "Flask" },
+    ],
+  },
+  {
+    id: "ai-project-6",
+    title: "Krishi Sakhi - AI Farming Assistant",
+    github: "https://github.com/Sumitkumar005/SIH-krishi-sakhi-ai-assistant",
+    image: greentrust,
+    content: "AI-powered farming assistant for Smart India Hackathon, providing intelligent agricultural guidance and support.",
+    category: "AI/ML",
+    stack: [
+      { id: "icon-1", icon: SiPython, name: "Python" },
+      { id: "icon-2", icon: SiOpenai, name: "OpenAI" },
+      { id: "icon-3", icon: SiFlask, name: "Flask" },
+      { id: "icon-4", icon: SiReact, name: "React" },
+    ],
+  },
+  {
+    id: "ai-project-7",
+    title: "TalentScout AI Recruiter",
+    github: "https://github.com/Sumitkumar005/TalentScout-AI-Recruiter",
+    image: chargeswap,
+    content: "AI-powered recruitment platform for intelligent talent acquisition and candidate matching.",
+    category: "AI/ML",
+    stack: [
+      { id: "icon-1", icon: SiPython, name: "Python" },
+      { id: "icon-2", icon: SiOpenai, name: "OpenAI" },
+      { id: "icon-3", icon: SiFastapi, name: "FastAPI" },
+      { id: "icon-4", icon: SiMilvus, name: "MongoDB" },
+    ],
+  },
+  {
+    id: "ai-project-8",
+    title: "SeekStyle.ai - Fashion Discovery Engine",
+    github: "https://github.com/Sumitkumar005/seekstyle.ai",
+    image: recruitment,
+    content: "AI-powered fashion discovery engine for personalized style recommendations and trend analysis.",
+    category: "AI/ML",
+    stack: [
+      { id: "icon-1", icon: SiPython, name: "Python" },
+      { id: "icon-2", icon: SiOpenai, name: "OpenAI" },
+      { id: "icon-3", icon: SiReact, name: "React" },
+      { id: "icon-4", icon: SiTensorflow, name: "TensorFlow" },
     ],
   },
 
+  // Backend Projects
+  {
+    id: "backend-project-1",
+    title: "GitHub Wrapped API",
+    github: "https://github.com/Sumitkumar005/github-wrapped-api",
+    image: greentrust,
+    content: "High-performance REST API providing personalized GitHub statistics and 'Spotify Wrapped' style year-end summaries for developers. Built with TypeScript, Fastify, and Redis.",
+    category: "Backend",
+    stack: [
+      { id: "icon-1", icon: SiJavascript, name: "TypeScript" },
+      { id: "icon-2", icon: SiJavascript, name: "Fastify" },
+      { id: "icon-3", icon: SiJavascript, name: "Redis" },
+      { id: "icon-4", icon: AiFillGithub, name: "GitHub API" },
+    ],
+  },
+  {
+    id: "backend-project-2",
+    title: "Custom Outreach Application",
+    github: "https://github.com/Sumitkumar005/custom-outreach-application",
+    image: chargeswap,
+    content: "Production-ready outreach application for automated email campaigns and lead management.",
+    category: "Backend",
+    stack: [
+      { id: "icon-1", icon: SiJavascript, name: "Node.js" },
+      { id: "icon-2", icon: SiJavascript, name: "Express.js" },
+      { id: "icon-3", icon: SiMilvus, name: "MongoDB" },
+      { id: "icon-4", icon: SiJavascript, name: "JWT" },
+    ],
+  },
+  {
+    id: "backend-project-3",
+    title: "Property Management US - Data Analysis Tool",
+    github: "https://github.com/Sumitkumar005/property-management-US",
+    image: recruitment,
+    content: "Comprehensive web scraping and data analysis tool for collecting detailed information about residential property management firms across U.S. cities with populations over 80,000.",
+    category: "Backend",
+    stack: [
+      { id: "icon-1", icon: SiPython, name: "Python" },
+      { id: "icon-2", icon: SiPandas, name: "Pandas" },
+      { id: "icon-3", icon: SiPython, name: "BeautifulSoup" },
+      { id: "icon-4", icon: SiMilvus, name: "MongoDB" },
+    ],
+  },
+  {
+    id: "backend-project-4",
+    title: "Web Scraper API",
+    github: "https://github.com/Sumitkumar005/web-scrap",
+    image: greentrust,
+    content: "Give website/page link and get the clean extracted data. Powerful web scraping API for data extraction.",
+    category: "Backend",
+    stack: [
+      { id: "icon-1", icon: SiPython, name: "Python" },
+      { id: "icon-2", icon: SiFlask, name: "Flask" },
+      { id: "icon-3", icon: SiPython, name: "BeautifulSoup" },
+      { id: "icon-4", icon: SiFastapi, name: "FastAPI" },
+    ],
+  },
+
+  // Full Stack Projects
+  {
+    id: "fullstack-project-1",
+    title: "Hemut Voice AI - Trucking Dashboard",
+    github: "https://github.com/Sumitkumar005/Voice-AI-Hemut-Frontend",
+    image: chargeswap,
+    content: "Modern React dashboard for managing AI-powered driver calls and load assignments in trucking industry.",
+    category: "Full Stack",
+    stack: [
+      { id: "icon-1", icon: SiReact, name: "React" },
+      { id: "icon-2", icon: SiTailwindcss, name: "TailwindCSS" },
+      { id: "icon-3", icon: SiJavascript, name: "Node.js" },
+      { id: "icon-4", icon: SiMilvus, name: "PostgreSQL" },
+    ],
+  },
+  {
+    id: "fullstack-project-2",
+    title: "Drishtea - Wellness in Every Sip",
+    github: "https://github.com/Sumitkumar005/Drishtea",
+    image: recruitment,
+    content: "Full-stack wellness platform focused on tea and health benefits with modern UI/UX.",
+    category: "Full Stack",
+    stack: [
+      { id: "icon-1", icon: SiReact, name: "React" },
+      { id: "icon-2", icon: SiTailwindcss, name: "TailwindCSS" },
+      { id: "icon-3", icon: SiJavascript, name: "Node.js" },
+      { id: "icon-4", icon: SiMilvus, name: "MongoDB" },
+    ],
+  },
+  {
+    id: "fullstack-project-3",
+    title: "Arfve Earbuds - Built to Last, Designed to Defy",
+    github: "https://github.com/Sumitkumar005/Arfve_earbuds",
+    image: greentrust,
+    content: "Modern e-commerce platform for premium earbuds with sleek design and user experience.",
+    category: "Full Stack",
+    stack: [
+      { id: "icon-1", icon: SiReact, name: "React" },
+      { id: "icon-2", icon: SiTailwindcss, name: "TailwindCSS" },
+      { id: "icon-3", icon: SiJavascript, name: "JavaScript" },
+      { id: "icon-4", icon: AiFillHtml5, name: "HTML5" },
+    ],
+  },
+
+  // Computer Vision Projects
+  {
+    id: "cv-project-1",
+    title: "Isourse FlowVision - Quality Inspection System",
+    github: "https://github.com/Sumitkumar005/Isourse-FlowVision",
+    image: chargeswap,
+    content: "Fault Detection, Quality Inspection & Remote Monitoring System for warehouse operations using computer vision and deep learning.",
+    category: "Computer Vision",
+    stack: [
+      { id: "icon-1", icon: SiOpencv, name: "OpenCV" },
+      { id: "icon-2", icon: SiTensorflow, name: "TensorFlow" },
+      { id: "icon-3", icon: SiPytorch, name: "PyTorch" },
+      { id: "icon-4", icon: SiFlask, name: "Flask" },
+    ],
+  },
+
+  // Tools & Extensions
+  {
+    id: "tools-project-1",
+    title: "Auto Form Filling Extension",
+    github: "https://github.com/Sumitkumar005/auto-form-filling-extension",
+    image: recruitment,
+    content: "Browser extension for automated form filling with intelligent field detection and data management.",
+    category: "Tools",
+    stack: [
+      { id: "icon-1", icon: SiJavascript, name: "JavaScript" },
+      { id: "icon-2", icon: AiFillHtml5, name: "HTML5" },
+      { id: "icon-3", icon: DiCss3, name: "CSS3" },
+      { id: "icon-4", icon: SiJavascript, name: "Chrome API" },
+    ],
+  },
+
+  // Hackathon Projects
+  {
+    id: "hackathon-project-1",
+    title: "Mumbai Hacks - Fakt AI",
+    github: "https://github.com/Sumitkumar005/Mumbai-Hacks-Hackathon-Fakt-AI",
+    image: greentrust,
+    content: "AI-powered fact-checking platform developed for Mumbai Hacks hackathon.",
+    category: "Hackathon",
+    stack: [
+      { id: "icon-1", icon: SiPython, name: "Python" },
+      { id: "icon-2", icon: SiOpenai, name: "OpenAI" },
+      { id: "icon-3", icon: SiReact, name: "React" },
+      { id: "icon-4", icon: SiFlask, name: "Flask" },
+    ],
+  },
+  {
+    id: "hackathon-project-2",
+    title: "AI Agent Hackathon - Syngenta",
+    github: "https://github.com/Sumitkumar005/AI-Agent-Hackathon-Syngenta-",
+    image: chargeswap,
+    content: "AI agent solution developed for Syngenta hackathon focusing on agricultural technology.",
+    category: "Hackathon",
+    stack: [
+      { id: "icon-1", icon: SiPython, name: "Python" },
+      { id: "icon-2", icon: SiOpenai, name: "OpenAI" },
+      { id: "icon-3", icon: SiFastapi, name: "FastAPI" },
+      { id: "icon-4", icon: SiMilvus, name: "Vector DB" },
+    ],
+  },
+  {
+    id: "hackathon-project-3",
+    title: "StartupPulse AI",
+    github: "https://github.com/Sumitkumar005/StartupPulse-AI",
+    image: recruitment,
+    content: "AI-powered startup analysis and market intelligence platform.",
+    category: "Hackathon",
+    stack: [
+      { id: "icon-1", icon: SiPython, name: "Python" },
+      { id: "icon-2", icon: SiOpenai, name: "OpenAI" },
+      { id: "icon-3", icon: SiReact, name: "React" },
+      { id: "icon-4", icon: SiTensorflow, name: "TensorFlow" },
+    ],
+  },
 ];
 
 // Add links to blogs here
@@ -621,22 +775,7 @@ export const stats = [
 
 // List out the extra curricular activities you have induldged in like - student clubs, joining research groups etc.
 export const extraCurricular = [
-
-
-  {
-    id: 4,
-    organisation: "Igniters, IITM BS",
-    title: "Community Lead",
-    duration: "Dec 2024 - Present",
-    content: [
-      {
-        text: "Led workshops and discussions, ensuring continuous skill development for members.",
-        link: "",
-      },
-    ],
-    logo: iris,
-  },
-
+  // Add any relevant extracurricular activities here
 ];
 
 // Links to your social media profiles

@@ -1,0 +1,76 @@
+SUMIT KUMAR 
+ Bangalore, India• +91 7503112577•sumitkumar969074@gmail.com• linkedin.com/in/sumitkumar005/•github.com/Sumitkumar005•portfolio-website-b8ka.vercel.app  
+  ACADEMIC QUALIFICATIONS   
+Passing Year  Course  Institute  Percentage/CGPA  
+2027 BS - Data Science  Indian Institute Of Technology–Madras (Chennai), Tamil Nadu 8.2 SGPA  
+  
+INTERNSHIPS  
+ForeignAdmits | Bengaluru, On-Site (India)                                                                                                                                                                                July’2025 – Present 
+AI Engineer Intern 
+• Developed production-grade chatbot backend using FastAPI, FAISS vector search, and RAG pipeline with conversation memory management; 
+integrated LLM across Telegram/WhatsApp with RBAC-controlled APIs, achieving 90%+ answer accuracy on 150+ daily study abroad queries. 
+• Implemented AI Document Processing System with Flask, integrating Tesseract OCR, Poppler, & OpenAI GPT-4 for automated data extraction from 
+gov. IDs (PAN, Aadhaar, passports); containerized with Docker & deployed on AWS ECS/ECR, processing 500+ documents with 95%+ accuracy. 
+• Built AI-powered Email Outreach Platform using FastAPI and PostgreSQL, implementing GPT-driven personalized content generation with OAuth 
+authentication and real-time analytics (opens/clicks); automated batch campaigns for 500+ B2B partners with 40% improved engagement rates. 
+AI Research Lab, | Remote (South Korea)                                                                                                                                                                                       Sep’2025 – Nov’2025 
+   
+ML (Freelancer) 
+• Researched AI-driven Fashion Trend Forecasting, analyzing ensemble models (N-BEATS, ETS, N-BEATS and PatchTST) & designing MLOps pipelines. 
+• Developed Multimodal Emotion Recognition system achieving 84.53% accuracy on IEMOCAP using PyTorch, Transformers, and GNNs 
+HTS | Pune - On site (India)  |  PPO Received                                                                                                                                                                                                             March’2025 – July’2025 
+ AI & DS Intern 
+• Built AI-driven rust detection system for cell tower inspections using YOLOv11, curating 2,000+ annotated images with data augmentation on 
+Roboflow; achieved 85% detection accuracy, containerized with Docker, & deployed on AWS ECS/ECR for scalable production inference. 
+• Engineered 3D structural mapping pipeline using OpenMVG/OpenMVS for point cloud to mesh generation with camera metadata integration; built 
+Django REST APIs with Postgre for batch processing & real-time rust localization, enabling remote inspection workflows across 4+ field teams 
+• Optimized end-to-end pipeline through model quantization and batch processing, reducing YOLOv11 training time from 12 hours to 3-4 hours and 
+inspection report delivery from 3 days to <24 hours, accelerating maintenance decisions by 90% and reducing manual inspection errors by 60%. 
+Unified Mentor | Gurugram - Remote (India) Dec’2024 – Feb’2025 
+ML Intern • Developed ML pipelines for fraud detection and medical imaging using Random Forest, XGBoost, and CNNs with ensemble learning; achieved 92% 
+accuracy and deployed scalable FastAPI inference system with YOLOv11 object detection and LangChain-based LLM classification 
+• Conducted EDA & feature engineering on 100K+ records; built Matplotlib/Seaborn dashboards for model performance & feature importance.  
+  
+  
+     TECHNICAL SKILLS 
+• Backend Development                             Python, Node.js, JavaScript | FastAPI, Django | REST APIs, WebSocket, GraphQL | JWT, RBAC 
+• AI/ML & LLMs  PyTorch, TensorFlow, CUDA, Transformers, scikit-learn | OpenAI GPT LangChain, LlamaIndex, 
+LangGraph, MCP RAG, Multi-Agents, Fine-tuning (LoRA/QLoRA) | CNNs, GNNs, | n8n, AutoGen 
+• Databases  PostgreSQL, MySQL, MongoDB, Redis | Vector DBs: FAISS, Pinecone | Pandas, NumPy, Kafka 
+• Cloud & MLOps  AWS (ECS, SageMaker, S3, Lambda) | Docker, Kubernetes | CI/CD | Deployment, Bitbucket Pipelines  
+• Tools & Libraries  Git, GitHub, Postman, OpenCV, Matplotlib, Supabase | OCR | Whisper, SST, TTS, ElevenLabs 
+• System Design 
+ 
+ Microservices, Scalable API Design, Asynchronous, Load Balancing, Caching, DB Optimization 
+  
+  
+                                        PROJECTS Year | GitHub  
+ VoxFlow.ai - 
+Voice AI Calling 
+Platform   
+Built production-grade AI voice agent platform with Node.js, integrating Twilio for telephony, Groq/Deepgram for real-time 
+SST/TTS(Sarvam), & Supabase for conversation storage; implemented RESTful APIs with RBAC for multi-tenant voice agent deployment. Oct’2025 | GitHub 
+  Engineered WebRTC-based live call monitoring, automated interruption handling, and conversational AI workflows, enabling businesses 
+to deploy voice agents for customer support, appointment booking, and outbound calling with <500ms latency. 
+AI-Powered 
+Code Analysis 
+Platform 
+Built FastAPI backend for multi-language code quality assessment (Python, JavaScript, Java, C++) with RAG pipeline using FAISS vector 
+database; enabled natural language codebase Q&A and semantic code search across 10K+ code snippets.  
+Sep’2025 | GitHub 
+Integrated AST parsing for automated security vulnerability detection and code smell identification; designed MongoDB persistence 
+with real-time GitHub webhook integration, reducing code review time by 40%. 
+ 
+AI-Powered 
+Chatbot with 
+RAG 
+Developed full-stack chatbot backend integrating FAISS vector search, Redis caching, and LLM-based AI processing with RBAC 
+authentication; built RESTful APIs for web scraping, data indexing, TTS generation, and admin controls with SQLite/Redis persistence.  
+July’2025 | GitHub 
+Implemented automated university data scraping pipeline and real-time chat processing with Swagger documentation. 
+AI Defect 
+Detection 
+System 
+Trained custom CNN on 7K+ images achieving 93% defect detection accuracy with OpenCV live camera feed processing.  Jan’2025 | GitHub  
+Automated production quality control workflows, reducing manual inspection time by 70% and enabling continuous monitoring.  
+ 
