@@ -82,7 +82,7 @@ import {
   SiPandas,
   SiNumpy,
   SiScikitlearn,
-  
+
   SiMicrosoftazure
 } from "react-icons/si";
 
@@ -99,7 +99,7 @@ import {
   FaGolang
 } from "react-icons/fa6";
 
-import { DiCss3, DiJava, DiMsqlServer} from "react-icons/di";
+import { DiCss3, DiJava, DiMsqlServer } from "react-icons/di";
 
 export const resumeLink = "https://drive.google.com/file/d/1g-Vr2YTT8w-6rLyd97KzCyUN40FR8V01/view?usp=sharing";
 export const repoLink = "";
@@ -144,17 +144,8 @@ export const educationList = [
     icon: nitk,
     title: " Indian Institute of Technology Madras,  Chennai, Tamil Nadu",
     degree: "Bachelor of Science",
-    duration: "Jan 2024 - May 2027",
+    duration: "2027",
     content1: "Major: Data Science",
-    
-  },
-  {
-    id: "education-2",
-    icon: pba,
-    title: "Subharti University",
-    degree: "Bachelor in Maths",
-    duration: "May 2023 - Apr 2026",
-    content1: "Minor: Maths",
   },
 ];
 
@@ -168,7 +159,7 @@ export const achievements = [
     content1: "Developed advanced ML and DL models for financial data analysis",
     article: "https://epochs.netlify.app/##page/40",
     github: "https://github.com/Sumitkumar005/Smart-Finance-with-Machine-Learning",
-   
+
   },
 ];
 
@@ -177,7 +168,7 @@ export const skills = [
   {
     title: "Programming Languages",
     items: [
-      
+
       {
         id: "pl-2",
         icon: SiPython,
@@ -188,13 +179,13 @@ export const skills = [
         icon: SiCplusplus,
         name: "C++",
       },
-      
+
       {
         id: "pl-6",
         icon: DiJava,
         name: "Java",
       },
-      
+
       {
         id: "pl-8",
         icon: AiFillHtml5,
@@ -210,7 +201,7 @@ export const skills = [
         icon: SiJavascript,
         name: "JavaScript",
       },
-      
+
     ],
   },
   {
@@ -241,8 +232,8 @@ export const skills = [
         icon: SiOpencv,
         name: "Computer Vision"
       },
-     
-      
+
+
 
       {
         id: "icon-7",
@@ -322,7 +313,7 @@ export const skills = [
 
 // Add your current/past professional work experience here
 export const experiences = [
-  
+
   {
     organisation: "HTS Tech Solutions, Pune(Maharashtra) India",
     logo: HTS,
@@ -339,10 +330,10 @@ export const experiences = [
         ],
       },
       {
-        
-        
+
+
         content: [
-          
+
           {
             text: " currently working on a Computer Vision project. and building real-world AI solutions while sharpening problem-solving skills.",
             link: ""
@@ -370,7 +361,7 @@ export const experiences = [
         title: "Member of Unified Mentor(Remote)",
         duration: "Sep 2024 - Nov 2024",
         content: [
-          
+
           {
             text: "Worked on hands-on ML projects, gained mentorship, and built end to end ML projects and improved problem-solving skills.",
             link: ""
@@ -425,12 +416,12 @@ export const experiences = [
 
 // Add information about all the projects to be listed out in your portfolio
 export const projects = [
- 
+
   {
     id: "project-2",
     title: "Live Monitoring in warehouse",
     github: "https://github.com/Sumitkumar005/Isourse-FlowVision",
-    
+
     image: greentrust,
     content:
       " Fault Detection, Quality Inspection & Remote Monitoring System warehouse offers a novel solution.",
@@ -460,8 +451,8 @@ export const projects = [
         icon: SiOpencv,
         name: "Computer Vision"
       },
-     
-      
+
+
 
       {
         id: "icon-7",
@@ -489,7 +480,7 @@ export const projects = [
         icon: SiOpenai,
         name: "OpenAI API"
       },
-      
+
       {
         id: "icon-1",
         icon: SiReact,
@@ -502,17 +493,17 @@ export const projects = [
       }
     ],
   },
- 
+
   {
     id: "project-5",
     title: " Smart Finance with Machine Learning",
     github: "https://github.com/Sumitkumar005/Smart-Finance-with-Machine-Learning",
-    
+
     image: recruitment,
     content:
       " Implemented ML and deep learning models for stock prediction and anomaly detection",
     stack: [
-      
+
       {
         id: "icon-2",
         icon: SiTailwindcss,
@@ -533,8 +524,8 @@ export const projects = [
         icon: SiOpencv,
         name: "Computer Vision"
       },
-     
-      
+
+
 
       {
         id: "icon-7",
@@ -548,7 +539,7 @@ export const projects = [
       },
     ],
   },
- 
+
 ];
 
 // Add links to blogs here
@@ -630,8 +621,8 @@ export const stats = [
 
 // List out the extra curricular activities you have induldged in like - student clubs, joining research groups etc.
 export const extraCurricular = [
-  
-  
+
+
   {
     id: 4,
     organisation: "Igniters, IITM BS",
@@ -645,7 +636,7 @@ export const extraCurricular = [
     ],
     logo: iris,
   },
-  
+
 ];
 
 // Links to your social media profiles
@@ -674,10 +665,10 @@ export const socialMedia = [
 
 // Your professional summary
 export const aboutMe = {
-    name: "Sumit Kumar",
-    githubUsername: 'SumitKumar005',
-    tagLine: "AI/ML and Software Development Intern | IIT Madras'27",
-    intro: "AI/ML and Software Development Intern with hands-on experience in machine learning, full-stack development, and generative AI, including LLMs, RAG, and vector databases. Proficient in Python, TensorFlow, FastAPI, and cloud platforms (AWS, GCP). Adept at building AI-driven solutions, particularly in healthcare, automation, and finance."
+  name: "Sumit Kumar",
+  githubUsername: 'SumitKumar005',
+  tagLine: "AI/ML and Software Development Intern | IIT Madras'27",
+  intro: "AI/ML and Software Development Intern with hands-on experience in machine learning, full-stack development, and generative AI, including LLMs, RAG, and vector databases. Proficient in Python, TensorFlow, FastAPI, and cloud platforms (AWS, GCP). Adept at building AI-driven solutions, particularly in healthcare, automation, and finance."
 }
 
 // The maximum number of PRs to be displayed in the Open Source Contributions section.
